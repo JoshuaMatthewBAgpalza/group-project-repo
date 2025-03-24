@@ -1,12 +1,14 @@
 {
-  "name": "node-mysql-orm-(typeorm)-typescript---crud-api",
+  "name": "node-mysql-orm-typeorm-typescript-crud-api",
   "version": "1.0.0",
-  "main": "api_typeorm-main/server.js",
- "scripts": {
-  "start": "node ./server.js",
-  "start:dev": "nodemon --exec ts-node ./server.ts",
-  "build": "tsc" 
-},
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "start:dev": "nodemon --exec ts-node ./server.ts",
+    "dev": "npm run start:dev",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
